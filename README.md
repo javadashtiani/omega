@@ -1,5 +1,5 @@
 # omega
-![tabs](https://github.com/javadashtiani/tabs/assets/134012615/667feac0-3eb3-4533-9abb-b18ed79d90a8)
+![omega](https://github.com/javadashtiani/omega/assets/134012615/0856afca-356b-48d1-acca-105708824251)
 - 🔗 https://javadashtiani.github.io/omega/
 - 💻 Developed by Javad Ashtiani
 - 📆 Created - 2023
