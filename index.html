@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- boot cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- css link -->
+    <link rel="stylesheet" href="styles/master.css" />
+    <!-- boot icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <header class="px-5 py-4 py-md-0">
+        <div class="containr-fluid">
+          <div class="row align-items-center">
+            <!-- 1 -->
+            <div class="col-4 col-md-3 d-flex align-items-center h-100">
+              <span class="d-md-none" id="menu"
+                ><i class="bi bi-list fw-bold pe-1"></i
+              ></span>
+              <span class="px-1 d-none d-md-block menu"
+                ><i class="bi bi-list fw-bold pe-1"></i>MENU
+              </span>
+              <div class="menu-left">
+                <div class="menu-wrapper">
+                  <ul class="list-unstyled">
+                    <li>WATCHES</li>
+                    <li>FINE JEWELLERY</li>
+                    <li>ACCESSORIES</li>
+                  </ul>
+                  <div class="divider"></div>
+                  <ul class="list-unstyled">
+                    <li>Planet Omega</li>
+                    <li>News & Stories</li>
+                    <li>Store Locator</li>
+                    <li>Customer Service</li>
+                  </ul>
+                </div>
+              </div>
+              <span class="d-none d-md-block">|</span>
+              <span class="px-2 global-toggler d-none d-md-block"
+                ><i class="bi bi-globe2"></i>
+
+                <!-- <div class="location">
+                  <div class="location-wrapper">
+                    <div class="close-modal">
+                      <span class="close-modal-btn"
+                        ><i class="bi bi-x fs-1"></i
+                      ></span>
+                    </div>
+                    <h2>CHOOSE YOUR LOCATION OR LANGUAGE</h2>
+                    <h6>You are currently on</h6>
+                    <h5>ENGLISH</h5>
+                    <div class="country-language">
+                      <div class="conatinr">
+                        <div class="row">
+                          <div class="country col-md-8">
+                            <h3>
+                              <i class="bi bi-bag pe-2"></i> COUNTRY / REGION
+                            </h3>
+                            <div class="contries">
+                              <ul class="list-unstyled">
+                                <li><i class="bi bi-bag pe-2"></i> Australia</li>
+                                <li><i class="bi bi-bag pe-2"></i> Austria</li>
+                                <li><i class="bi bi-bag pe-2"></i> China</li>
+                                <li><i class="bi bi-bag pe-2"></i> Denmark</li>
+                                <li><i class="bi bi-bag pe-2"></i> France</li>
+                                <li><i class="bi bi-bag pe-2"></i> Germany</li>
+                                <li><i class="bi bi-bag pe-2"></i> Hong Kong</li>
+                                <li><i class="bi bi-bag pe-2"></i> Italy</li>
+                              </ul>
+                              <ul class="list-unstyled">
+                                <li><i class="bi bi-bag pe-2"></i> Japan</li>
+                                <li>
+                                  <i class="bi bi-bag pe-2"></i> South Korea
+                                </li>
+                                <li><i class="bi bi-bag pe-2"></i> Spain</li>
+                                <li><i class="bi bi-bag pe-2"></i> Sweden</li>
+                                <li>
+                                  <i class="bi bi-bag pe-2"></i> Switzerland
+                                </li>
+                                <li>
+                                  <i class="bi bi-bag pe-2"></i> Taiwan Region
+                                </li>
+                                <li>
+                                  <i class="bi bi-bag pe-2"></i> United Kingdom
+                                </li>
+                                <li>
+                                  <i class="bi bi-bag pe-2"></i> United States
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="language col-md-4">
+                            <h3>LANGUAGE</h3>
+                            <div class="languages">
+                              <ul class="list-unstyled">
+                                <li>English (International)</li>
+                                <li>French</li>
+                                <li>Portuguese</li>
+                                <li>Russian</li>
+                                <li>Spanish</li>
+                                <li>Thai</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+              </span>
+            </div>
+            <!-- 2 -->
+            <figure class="col-4 col-md-7">
+              <img src="img/logo/logo-removebg-preview.png" alt="logo" />
+            </figure>
+            <!-- 3 -->
+            <div
+              class="
+                col-4 col-md-2
+                d-flex
+                justify-content-end
+                align-items-center
+                h-100
+              "
+            >
+              <span class="px-md-3 search-btn"
+                ><i class="bi bi-search"></i>
+              </span>
+              <span class="d-none d-md-block"
+                ><i class="bi bi-geo-alt"></i
+              ></span>
+              <span class="ps-2 account d-flex align-items-center"
+                ><i class="bi bi-person"></i>
+              </span>
+              <div class="account-login">
+                <div class="content">
+                  <h3>MY OMEGA</h3>
+                  <p>I HAVE AN ACCOUNT</p>
+                  <div class="input-email mb-2">
+                    <input type="email" placeholder="Enter your Email*" />
+                  </div>
+                  <div class="input-password">
+                    <input type="password" placeholder="Enter your password*" />
+                  </div>
+                  <a href="#" class="forget-password">forget your password?</a>
+                  <button class="login">login</button>
+                  <div class="divider"></div>
+                  <p>I DON'T HAVE AN ACCOUNT</p>
+                  <p class="create">
+                    Create a My OMEGA account to benefit from our exclusive
+                    services and keep up to date with our latest publications.
+                  </p>
+                  <button class="sign-up">sign up</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row h-bottom d-none d-md-block">
+            <nav>
+              <ul
+                class="
+                  list-unstyled
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+              >
+                <li>
+                  <a class="text-decoration-none" href="#">Constellation</a>
+                  <div class="subMenu">
+                    <div
+                      class="
+                        content
+                        d-flex
+                        flex-column
+                        align-items-center
+                        justify-content-around
+                      "
+                    >
+                      <h3 class="text-center pt-3">Constellation</h3>
+                      <div class="d-flex mb-4">
+                        <figure class="m-0 d-flex flex-column">
+                          <img
+                            src="img/hedaer/omega-constellation-co-axial-master-chronometer-41-mm-13133412104001-s.png"
+                            alt=""
+                          />
+                          <figcaption>Constellation</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img
+                            src="img/hedaer/omega-constellation-globemaster-13053392102001-s.png"
+                            alt=""
+                          />
+                          <figcaption>Globemaster</figcaption>
+                        </figure>
+                      </div>
+                      <a href="#">TOUS LES MODÈLES CONSTELLATION</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#">Seamaster</a>
+                  <div class="subMenu">
+                    <div
+                      class="
+                        content
+                        d-flex
+                        flex-column
+                        align-items-center
+                        justify-content-around
+                      "
+                    >
+                      <h3 class="text-center pt-3">Seamaster</h3>
+                      <div class="d-flex mb-4">
+                        <figure class="m-0 d-flex flex-column">
+                          <img
+                            src="img/hedaer/seamaster/omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382013003-s.png"
+                            alt=""
+                          />
+                          <figcaption>AQUA TERRA</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img
+                            src="img/hedaer/seamaster/omega-seamaster-diver-300m-co-axial-master-chronometer-42-mm-21032422010001-s.png"
+                            alt=""
+                          />
+                          <figcaption>DIVER 300M</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img
+                            src="img/hedaer/seamaster/omega-seamaster-planet-ocean-6000m-co-axial-master-chronometer-45-5-mm-21592462101001-s.png"
+                            alt=""
+                          />
+                          <figcaption>PLANET OCEAN</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img
+                            src="img/hedaer/seamaster/omega-seamaster-seamaster-300-co-axial-master-chronometer-41-mm-23432412101001-s.png"
+                            alt=""
+                          />
+                          <figcaption>MODÈLES HÉRITAGE</figcaption>
+                        </figure>
+                      </div>
+                      <a href="#">TOUS LES MODÈLES SEAMASTER</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#">Speedmaster</a>
+                  <div class="subMenu">
+                    <div
+                      class="
+                        content
+                        d-flex
+                        flex-column
+                        align-items-center
+                        justify-content-around
+                      "
+                    >
+                      <h3 class="text-center pt-3">Speedmaster</h3>
+                      <div class="d-flex mb-4">
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/speed master/1.png" alt="" />
+                          <figcaption>MOONWATCH</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/speed master/2.png" alt="" />
+                          <figcaption>MODÈLES HÉRITAGE</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/speed master/3.png" alt="" />
+                          <figcaption class="text-center">
+                            DARK SIDE OF THE MOON
+                          </figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/speed master/4.png" alt="" />
+                          <figcaption>SPEEDMASTER 38</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/speed master/5.png" alt="" />
+                          <figcaption>DEUX COMPTEURS</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/speed master/6.png" alt="" />
+                          <figcaption>INSTRUMENTS</figcaption>
+                        </figure>
+                      </div>
+                      <a href="#">TOUS LES MODÈLES SPEEDMASTER</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#">De Ville</a>
+                  <div class="subMenu">
+                    <div
+                      class="
+                        content
+                        d-flex
+                        flex-column
+                        align-items-center
+                        justify-content-around
+                      "
+                    >
+                      <h3 class="text-center pt-3">De Ville</h3>
+                      <div class="d-flex mb-4">
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/deville/1.png" alt="" />
+                          <figcaption>LADYMATIC</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/deville/2.png" alt="" />
+                          <figcaption>TRÉSOR</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/deville/3.png" alt="" />
+                          <figcaption class="text-center">PRESTIGE</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/deville/4.png" alt="" />
+                          <figcaption>TOURBILLON</figcaption>
+                        </figure>
+                      </div>
+                      <a href="#">ALL DE VILLE</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <a class="text-decoration-none" href="#"
+                    >Bracelets & Straps</a
+                  >
+                  <div class="subMenu">
+                    <div
+                      class="
+                        content
+                        d-flex
+                        flex-column
+                        align-items-center
+                        justify-content-around
+                      "
+                    >
+                      <h3 class="text-center pt-3">Bracelets & Straps</h3>
+                      <div class="d-flex mb-4">
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/straps/1.png" alt="" />
+                          <figcaption>NATO STRAPS</figcaption>
+                        </figure>
+                        <figure class="m-0 d-flex flex-column">
+                          <img src="img/hedaer/straps/2.png" alt="" />
+                          <figcaption>TWO‑PIECE STRAPS</figcaption>
+                        </figure>
+                      </div>
+                      <a href="#">ALL BRACELETS & STRAPS</a>
+                    </div>
+                  </div>
+                </li>
+                <!-- find -->
+                <li>
+                  <a class="text-decoration-none" href="#">Find your OMEGA</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- search box -->
+      <div class="search-box">
+        <div class="wrapper">
+          <input type="search" placeholder="Search..." /><span
+            ><i class="bi bi-search"></i
+          ></span>
+        </div>
+      </div>
+      <!-- Location -->
+      <!-- <div class="location">
+      <div class="location-wrapper">
+        <div class="close-modal">
+          <span class="close-modal-btn"><i class="bi bi-x fs-1"></i></span>
+        </div>
+        <h2>CHOOSE YOUR LOCATION OR LANGUAGE</h2>
+        <h6>You are currently on</h6>
+        <h5>ENGLISH</h5>
+        <div class="country-language">
+          <div class="conatinr">
+            <div class="row">
+              <div class="country col-md-8">
+                <h3><i class="bi bi-bag pe-2"></i> COUNTRY / REGION</h3>
+                <div class="contries">
+                  <ul class="list-unstyled">
+                    <li><i class="bi bi-bag pe-2"></i> Australia</li>
+                    <li><i class="bi bi-bag pe-2"></i> Austria</li>
+                    <li><i class="bi bi-bag pe-2"></i> China</li>
+                    <li><i class="bi bi-bag pe-2"></i> Denmark</li>
+                    <li><i class="bi bi-bag pe-2"></i> France</li>
+                    <li><i class="bi bi-bag pe-2"></i> Germany</li>
+                    <li><i class="bi bi-bag pe-2"></i> Hong Kong</li>
+                    <li><i class="bi bi-bag pe-2"></i> Italy</li>
+                  </ul>
+                  <ul class="list-unstyled">
+                    <li><i class="bi bi-bag pe-2"></i> Japan</li>
+                    <li><i class="bi bi-bag pe-2"></i> South Korea</li>
+                    <li><i class="bi bi-bag pe-2"></i> Spain</li>
+                    <li><i class="bi bi-bag pe-2"></i> Sweden</li>
+                    <li><i class="bi bi-bag pe-2"></i> Switzerland</li>
+                    <li><i class="bi bi-bag pe-2"></i> Taiwan Region</li>
+                    <li><i class="bi bi-bag pe-2"></i> United Kingdom</li>
+                    <li><i class="bi bi-bag pe-2"></i> United States</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="language col-md-4">
+                <h3>LANGUAGE</h3>
+                <div class="languages">
+                  <ul class="list-unstyled">
+                    <li>English (International)</li>
+                    <li>French</li>
+                    <li>Portuguese</li>
+                    <li>Russian</li>
+                    <li>Spanish</li>
+                    <li>Thai</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+      <!-- intro -->
+      <section class="intro container-fluid">
+        <div class="row align-items-center">
+          <figure class="p-0 col-md-8">
+            <img class="img-fluid" src="img/intro/AT39-ZK-large_5.jpg" alt="" />
+          </figure>
+          <figure
+            class="
+              col-md-4
+              bg-muted
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+            "
+          >
+            <img
+              src="img/intro/watch-22010342010002_8.png"
+              class="d-none d-sm-block"
+              alt=""
+            />
+            <h4 class="text-danger pt-3">EVERY SHADE OF YOU</h4>
+            <p class="text-muted">AQUA TERRA SHADES</p>
+            <a class="text-muted fs-5" href="#">Discover the collection</a>
+          </figure>
+        </div>
+      </section>
+      <!-- celebrate -->
+      <section class="celebrate px-2 px-md-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-center" data-aos="fade-up">
+              <div class="celebrate-wrapper">
+                <h2>CELEBRATING SEAMASTER</h2>
+                <p>
+                  Celebrity guests joined OMEGA in Mykonos to salute the 75th
+                  anniversary of Seamaster, and the launch of the Seamaster in
+                  Summer Blue collection.
+                </p>
+                <a class="text-decoration-none mb-5 mb-md-0" href="#"
+                  >READ MORE</a
+                >
+              </div>
+            </div>
+            <figure class="col-md-6" data-aos="fade-up">
+              <img
+                class="img-fluid"
+                src="img/celebrate/celebrate-omega.jpg"
+                alt="celebrate"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- seamaster collection -->
+      <section class="sea-master-collection">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+              <video autoplay loop playsinline muted>
+                <source src="video/summer-plp-square.mp4" type="" />
+              </video>
+            </div>
+            <div
+              class="col-md-6 d-flex justify-content-center align-items-center"
+            >
+              <div
+                class="sea-master-collection-wrapper pt-5 pt-md-0"
+                data-aos="fade-left"
+              >
+                <h2>SEAMASTER COLLECTION IN SUMMER BLUE</h2>
+                <p>
+                  To celebrate oceangoing icon, OMEGA has produced a collection
+                  of watches with dials in various layers of Summer Blue. A
+                  striking tone reminiscent of a perfect day on a boundless sea.
+                </p>
+                <a class="text-decoration-none" href="#"
+                  >Discover the watches</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- aqua terra -->
+      <section class="aqua-terra">
+        <div class="aqua-box">
+          <h2 class="text-danger text-center">AQUA TERRA SHADES</h2>
+          <p class="text-muted text-center py-2">
+            Follow the colours of ocean and earth with our newest Aqua Terra
+            range. These vibrant models in stainless steel are a pure connection
+            to the natural world.
+          </p>
+          <a class="text-decoration-none" href="#">DISCOVER MORE</a>
+        </div>
+        <div class="container">
+          <div class="row py-md-5 my-md-5 align-items-center">
+            <div class="col-md-6 my-md-5 py-md-5">
+              <video autoplay loop playsinline>
+                <source
+                  src="video/220-10-38-20_SEA_AT_FILM-ER_min2dB_8sec_800x900.mp4"
+                />
+              </video>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <figure class="top">
+                  <img
+                    class="img-fluid"
+                    src="img/aqua terra/220.10.38.20.13_closeup_735x510_1.jpg"
+                    alt=""
+                  />
+                </figure>
+                <div class="row px-5">
+                  <figure class="col">
+                    <img
+                      class="img-fluid"
+                      src="img/aqua terra/omega-seamaster-aqua-terra-150m-co-axial-master-chronometer-38-mm-22010382013003-list.jpg"
+                      alt="aqua terra"
+                    />
+                  </figure>
+                  <div class="col d-flex flex-column justify-content-center">
+                    <h6>
+                      <span
+                        class="badge badge-secondary bg-secondary rounded-pill"
+                        >New</span
+                      >
+                    </h6>
+                    <p class="text-muted py-3">AQUA TERRA SHADES</p>
+                    <p class="text-muted m-0">Co-Axial Master Chronometer</p>
+                    <p class="m-0 text-muted">38mm</p>
+                    <div class="d-flex justify-content-start">
+                      <a
+                        class="details-link text-decoration-none mb-5 mb-md-0"
+                        href="#"
+                        >DETAILS</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Mums time -->
+      <section class="mums">
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-md-6 d-flex flex-column align-items-center d-md-block"
+            >
+              <h5 class="text-secondary">MOTHER'S DAY</h5>
+              <h2 class="text-danger w-50 py-3">MUM’S TIME IS PRECIOUS</h2>
+              <p class="text-secondary w-75">
+                Every mum has her own unique character and style. This Mother’s
+                Day, give her the gift of time with watches that will inspire
+                her passions.
+              </p>
+              <div class="d-flex justify-content-start my-4">
+                <a class="text-decoration-none" href="#">CHOOSE YOUR GIFT</a>
+              </div>
+            </div>
+            <figure class="col-md-6">
+              <img
+                class="img-fluid"
+                src="img/mums/HP_Women_Watch_220.20.38.20.06_800x900_1.jpg"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- bonds -->
+      <section class="bonds">
+        <figure class="text-center m-0">
+          <img class="img-fluid" src="img/bonds/logo-60Y-JB-v3_2.jpg" alt="" />
+        </figure>
+        <h2 class="text-danger text-center">60 YEARS OF BOND</h2>
+        <div class="d-flex justify-content-center">
+          <p class="text-secondary w-75 text-center my-3">
+            Discover OMEGA’s Seamaster Diver 300M in stainless steel, launched
+            to celebrate six decades of 007 on screen. A stylish tribute to Bond
+            movie history, featuring a unique animated caseback depicting the
+            iconic opening sequence.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center my-5">
+          <a class="text-decoration-none" href="#">DISCOVER THE WATCH</a>
+        </div>
+        <div class="container">
+          <div class="row">
+            <figure class="col-md-6">
+              <img class="img-fluid" src="img/bonds/1.jpg" alt="" />
+            </figure>
+            <figure class="col-md-6">
+              <img class="img-fluid" src="img/bonds/2.jpg" alt="" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- SPEEDMASTER -->
+      <!-- <section class="speedmaster container-fluid">
+      <div>
+        <h2>SPEEDMASTER MOONWATCH PROFESSIONAL</h2>
+        <p>
+          Take your first steps into our latest Moonwatch update, with a design
+          inspired by the famous 4th generation style worn by Apollo 11
+          astronauts.
+        </p>
+        <div>
+          <button class="btn btn-outline-secondary rounded-0">
+            <a class="text-decoration-none" href="#">DESCOVER THE COLLECTION</a>
+          </button>
+        </div>
+      </div>
+    </section> -->
+      <!-- LOOK FOR -->
+      <section class="look-for">
+        <h5 class="text-secondary text-center">NATO STRAPS</h5>
+        <h3 class="text-danger text-center my-3">A NEW LOOK FOR YOUR WATCH</h3>
+        <div class="d-flex justify-content-center">
+          <p class="text-secondary text-center w-50">
+            Your watch and strap should go together perfectly, but that doesn't
+            mean you can't experiment with different combinations. Why not mix
+            things up and see what happens? You may discover a look that's as
+            individual as you are.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a class="text-decoration-none" href="#">SHOP THE COLLECTION</a>
+        </div>
+        <div class="container">
+          <div class="row pt-5">
+            <figure class="col-md-8" data-aos="fade-right">
+              <img class="img-fluid h-100" src="img/lookfor/1.jpg" alt="" />
+            </figure>
+            <figure class="col-md-4" data-aos="fade-left">
+              <img class="img-fluid h-100" src="img/lookfor/2.jpg" alt="" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- NEWS -->
+      <section class="news">
+        <h2 class="text-danger text-center">NEWS & STORIES</h2>
+        <div class="text-center">
+          <a class="text-secondary mb-2" href="#">See all articles</a>
+        </div>
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-md-3">
+              <img src="img/news/1.jpg" class="img-fluid" />
+              <div class="body">
+                <p class="text-danger py-3">EVENTS</p>
+                <h5 class="text-danger">AN EVENING OF COLOUR</h5>
+                <p class="text-secondary py-3">
+                  Discover a vibrant night in London, as OMEGA hosts an Aqua
+                  Terra Shades event.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <img src="img/news/2.jpg" class="img-fluid" />
+              <div class="body">
+                <p class="text-danger py-3">PEOPLE</p>
+                <h5 class="text-danger">ACADEMY AWARDS STYLE</h5>
+                <p class="text-secondary py-3">
+                  Discover the OMEGA watches worn at the prestigious event.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <img src="img/news/3.jpg" class="img-fluid" />
+              <div class="body">
+                <p class="text-danger py-3">WATCHES</p>
+                <h5 class="text-danger">HERE TIME IN LONDON</h5>
+                <p class="text-secondary py-3">
+                  OMEGA’s inspiring exhibition of women’s watches take centre
+                  stage.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <img src="img/news/4.jpg" class="img-fluid" />
+              <div class="body">
+                <p class="text-danger py-3">PEOPLE</p>
+                <h5 class="text-danger">SAG AWARDS 2023</h5>
+                <p class="text-secondary py-3">OMEGA style at the SAG Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- social -->
+      <section class="social">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <label for="email">SUBSCRIBE TO OUR NEWSLETTER</label>
+              </div>
+              <div>
+                <input type="email" id="email" />
+                <span><i class="bi bi-chevron-right"></i></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <span
+                ><a
+                  href="https://www.instagram.com/javadashtiani_web"
+                  target="_blank"
+                  ><i class="bi bi-instagram"></i></a
+              ></span>
+              <span
+                ><a href="https://github.com/javadashtiani" target="_blank"
+                  ><i class="bi bi-github"></i></a
+              ></span>
+              <span
+                ><a
+                  href="https://www.linkedin.com/in/javadashtiani/"
+                  target="_blank"
+                  ><i class="bi bi-linkedin"></i></a
+              ></span>
+              <span
+                ><a href="http://ashtianiweb.com/" target="_blank"
+                  ><i class="bi bi-file-person"></i></a
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row px-md-5">
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                <p>THE COLLECTION</p>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Globemaster</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Constellation</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Diver 300M</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Aqua terra 150M</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Seamaster 300</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Planet Ocean 600M</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Moonwatch</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Dark side of the Moon</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Ladymatic</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Trésor</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Prestige</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Tourbillon</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                <p>FIND YOUR OMEGA</p>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Women's Watches</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Men's Watches</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Gold Watches</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Chronograph Watches</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Dress Watches</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Dive Watches</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Automatic Watches</a
+                  >
+                </li>
+                <p>PLANET OMEGA</p>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Watchmaking</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Space</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Sport</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >James Bond</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >The OMEGA Museum</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Chronicle</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                <p>MASTER CHRONOMETER</p>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Certification</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Access my Test Results</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >iPhone Card Scanner App</a
+                  >
+                </li>
+                <p>STORE LOCATOR</p>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Find a Store</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Locate me</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                <p>CUSTOMER SERVICE</p>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Interventions and Prices</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Preserve your OMEGA</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Find a Service Center</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Certificates and extracts</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Order a Catalogue</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >FAQ</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Glossary</a
+                  >
+                </li>
+                <p>MORE</p>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Press Room</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none text-secondary" href="#"
+                    >Jobs</a
+                  >
+                </li>
+                <li>
+                  <a class="text-decoration-none contact-us" href="#"
+                    >contact us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <!-- scripts -->
+    <script src="main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
